@@ -1,0 +1,429 @@
+2024-08-13 13:01:50,349 [Thread-1 (_pump_background)] {jab_wrapper.py:167} [DEBUG] Loading WindowsAccessBridge
+2024-08-13 13:01:50,351 [Thread-1 (_pump_background)] {jab_wrapper.py:173} [DEBUG] WindowsAccessBridge loaded succesfully
+2024-08-13 13:01:50,371 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:50,375 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:50,376 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,370 [MainThread] {JavaAccessBridge.py:502} [INFO] Java Access Bridge Wrapper initialized
+2024-08-13 13:01:51,376 [MainThread] {jab_wrapper.py:155} [DEBUG] found window title=asda pid=16016 hwnd=264200
+2024-08-13 13:01:51,410 [MainThread] {warnings.py:110} [WARNING] RPA\JavaAccessBridge.py:550: FutureWarning: Keyword `Select Window` is deprecated and will be removed in the next major update to the `RPA.JavaAccessBridge` library. Please use `Select Window By Title` or `Select Window By PID` keywords instead.
+
+2024-08-13 13:01:51,416 [MainThread] {jab_wrapper.py:155} [DEBUG] found window title=asda pid=16016 hwnd=264200
+2024-08-13 13:01:51,445 [MainThread] {jab_wrapper.py:642} [DEBUG] found matching window=asda
+2024-08-13 13:01:51,445 [MainThread] {jab_wrapper.py:654} [INFO] Found Java window text=asda pid=16016 hwnd=264200 vmID=c_long(198634) context=<JavaObject object at 0x00000220BCDF21D0>
+
+2024-08-13 13:01:51,446 [MainThread] {JavaAccessBridge.py:1068} [INFO] VMversion=11.0.15; BridgeJavaClassVersion=11.0.15; BridgeJavaDLLVersion=11.0.15; BridgeWinDLLVersion=11.0.15
+2024-08-13 13:01:51,448 [MainThread] {JavaAccessBridge.py:957} [INFO] Forcibly refreshing the entire app to a maximum depth of -1.
+2024-08-13 13:01:51,449 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCDF21D0>
+2024-08-13 13:01:51,453 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCDF2450>
+2024-08-13 13:01:51,463 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,463 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received focus_gained event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,463 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed focus_gained in 0.0000s
+2024-08-13 13:01:51,480 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,480 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_state_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,480 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_state_change in 0.0000s
+2024-08-13 13:01:51,484 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,484 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,485 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,485 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,485 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,485 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,486 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,486 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,486 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,486 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCDF2AD0>
+2024-08-13 13:01:51,487 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,487 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,487 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,490 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCDF29D0>
+2024-08-13 13:01:51,491 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,491 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,491 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,492 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,492 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,492 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,505 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,505 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,505 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,506 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,506 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,507 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,507 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,507 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,507 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,507 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCDF2F50>
+2024-08-13 13:01:51,508 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,508 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,508 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,510 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCDF3050>
+2024-08-13 13:01:51,510 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,511 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,511 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,511 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,511 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,512 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,512 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,513 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,513 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,513 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,513 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,513 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,514 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,514 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,514 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,514 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,515 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,515 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCDF3550>
+2024-08-13 13:01:51,515 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,518 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCDF30D0>
+2024-08-13 13:01:51,518 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,518 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,518 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,528 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,529 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,529 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,529 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,529 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF3A50>
+2024-08-13 13:01:51,530 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,530 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,530 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF24D0>
+2024-08-13 13:01:51,530 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCDF3B50>
+2024-08-13 13:01:51,530 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,532 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCDF2550>
+2024-08-13 13:01:51,532 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,533 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCDF3A50>
+2024-08-13 13:01:51,533 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,542 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,542 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C0D0>
+2024-08-13 13:01:51,542 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,543 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,543 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,543 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,543 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0C0D0>
+2024-08-13 13:01:51,544 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,544 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,544 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,545 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCDF3A50>
+2024-08-13 13:01:51,546 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,546 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C150>
+2024-08-13 13:01:51,546 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,547 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,547 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,547 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,548 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,548 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C150>
+2024-08-13 13:01:51,548 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,549 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,549 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,549 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0C5D0>
+2024-08-13 13:01:51,549 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,553 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0C6D0>
+2024-08-13 13:01:51,553 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,553 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C750>
+2024-08-13 13:01:51,553 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,554 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,554 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,554 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,555 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,555 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C750>
+2024-08-13 13:01:51,555 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,555 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,555 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,556 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,556 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,556 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C750>
+2024-08-13 13:01:51,556 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,556 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0CDD0>
+2024-08-13 13:01:51,556 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,557 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,557 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,558 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0CB50>
+2024-08-13 13:01:51,558 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,558 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0CE50>
+2024-08-13 13:01:51,558 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,559 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,559 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,559 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,561 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0D2D0>
+2024-08-13 13:01:51,562 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0C050>
+2024-08-13 13:01:51,564 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0D850>
+2024-08-13 13:01:51,566 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0DAD0>
+2024-08-13 13:01:51,569 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0DF50>
+2024-08-13 13:01:51,571 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0E1D0>
+2024-08-13 13:01:51,573 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0E650>
+2024-08-13 13:01:51,575 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0E8D0>
+2024-08-13 13:01:51,580 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,580 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,580 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,583 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,583 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E950>
+2024-08-13 13:01:51,583 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,584 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,584 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,584 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,584 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,584 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E950>
+2024-08-13 13:01:51,584 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,585 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0EF50>
+2024-08-13 13:01:51,585 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,585 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,585 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,587 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0EE50>
+2024-08-13 13:01:51,587 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,587 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E950>
+2024-08-13 13:01:51,587 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,593 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,593 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,594 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,594 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,594 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0F3D0>
+2024-08-13 13:01:51,594 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,594 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0E950>
+2024-08-13 13:01:51,595 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,595 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,595 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,596 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0F4D0>
+2024-08-13 13:01:51,596 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,596 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0F3D0>
+2024-08-13 13:01:51,597 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,603 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,603 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,603 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,604 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,604 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0F3D0>
+2024-08-13 13:01:51,604 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,605 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,605 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,605 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,605 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE0F950>
+2024-08-13 13:01:51,605 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,605 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0F3D0>
+2024-08-13 13:01:51,606 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,607 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0FA50>
+2024-08-13 13:01:51,607 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,607 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,608 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,611 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,611 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0F3D0>
+2024-08-13 13:01:51,611 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,611 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,612 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0E9D0>
+2024-08-13 13:01:51,612 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,612 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,612 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0F3D0>
+2024-08-13 13:01:51,612 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE14050>
+2024-08-13 13:01:51,612 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,614 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0FED0>
+2024-08-13 13:01:51,614 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,615 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE140D0>
+2024-08-13 13:01:51,615 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,616 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,616 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE0F3D0>
+2024-08-13 13:01:51,616 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,619 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,619 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE14950>
+2024-08-13 13:01:51,620 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,620 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,620 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE14950>
+2024-08-13 13:01:51,621 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,621 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,622 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE14950>
+2024-08-13 13:01:51,622 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,622 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE14850>
+2024-08-13 13:01:51,622 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,623 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE14950>
+2024-08-13 13:01:51,623 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,624 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE0F3D0>
+2024-08-13 13:01:51,624 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,624 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE14A50>
+2024-08-13 13:01:51,625 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,625 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,625 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE14950>
+2024-08-13 13:01:51,625 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,625 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,626 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE14A50>
+2024-08-13 13:01:51,626 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,626 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE15250>
+2024-08-13 13:01:51,628 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE149D0>
+2024-08-13 13:01:51,629 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE156D0>
+2024-08-13 13:01:51,631 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE157D0>
+2024-08-13 13:01:51,634 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE15C50>
+2024-08-13 13:01:51,636 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE15ED0>
+2024-08-13 13:01:51,638 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE16350>
+2024-08-13 13:01:51,640 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE16450>
+2024-08-13 13:01:51,642 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE168D0>
+2024-08-13 13:01:51,644 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE169D0>
+2024-08-13 13:01:51,646 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE16E50>
+2024-08-13 13:01:51,648 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE170D0>
+2024-08-13 13:01:51,650 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE17550>
+2024-08-13 13:01:51,651 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE17650>
+2024-08-13 13:01:51,653 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE17AD0>
+2024-08-13 13:01:51,654 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE17BD0>
+2024-08-13 13:01:51,656 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE18350>
+2024-08-13 13:01:51,658 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE183D0>
+2024-08-13 13:01:51,660 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE18850>
+2024-08-13 13:01:51,661 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE18950>
+2024-08-13 13:01:51,663 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE18DD0>
+2024-08-13 13:01:51,666 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE19050>
+2024-08-13 13:01:51,668 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE194D0>
+2024-08-13 13:01:51,669 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE19750>
+2024-08-13 13:01:51,671 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE19BD0>
+2024-08-13 13:01:51,673 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE19CD0>
+2024-08-13 13:01:51,675 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE1A150>
+2024-08-13 13:01:51,676 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE1A3D0>
+2024-08-13 13:01:51,678 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE1A850>
+2024-08-13 13:01:51,680 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE1AAD0>
+2024-08-13 13:01:51,681 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,681 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,681 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,682 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,683 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1AB50>
+2024-08-13 13:01:51,683 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,683 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,683 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,683 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,684 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,684 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1AB50>
+2024-08-13 13:01:51,684 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,684 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE1B150>
+2024-08-13 13:01:51,684 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,684 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,685 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,686 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE1B050>
+2024-08-13 13:01:51,686 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,687 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1AB50>
+2024-08-13 13:01:51,687 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,688 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,688 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,688 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,689 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,689 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1AB50>
+2024-08-13 13:01:51,689 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,689 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,689 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,689 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,690 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE1B5D0>
+2024-08-13 13:01:51,690 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,690 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1AB50>
+2024-08-13 13:01:51,690 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,692 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE1B6D0>
+2024-08-13 13:01:51,692 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,692 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,692 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,693 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,693 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1AB50>
+2024-08-13 13:01:51,693 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,693 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,693 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,693 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,694 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,694 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1AB50>
+2024-08-13 13:01:51,694 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,694 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE1BB50>
+2024-08-13 13:01:51,694 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,694 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,694 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,696 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE1BC50>
+2024-08-13 13:01:51,696 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,696 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1AB50>
+2024-08-13 13:01:51,696 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,696 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,696 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE1ABD0>
+2024-08-13 13:01:51,697 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,697 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,697 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE201D0>
+2024-08-13 13:01:51,697 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,697 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,698 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE201D0>
+2024-08-13 13:01:51,698 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,698 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE20250>
+2024-08-13 13:01:51,699 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,699 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE201D0>
+2024-08-13 13:01:51,699 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,701 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE20150>
+2024-08-13 13:01:51,702 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,702 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE201D0>
+2024-08-13 13:01:51,702 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,702 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,702 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE202D0>
+2024-08-13 13:01:51,702 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,703 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,703 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE201D0>
+2024-08-13 13:01:51,703 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,703 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,703 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE202D0>
+2024-08-13 13:01:51,703 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,703 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE207D0>
+2024-08-13 13:01:51,704 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,704 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE201D0>
+2024-08-13 13:01:51,704 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,705 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE206D0>
+2024-08-13 13:01:51,705 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,706 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE202D0>
+2024-08-13 13:01:51,706 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,707 [Thread-1 (_pump_background)] {JavaAccessBridge.py:517} [DEBUG] Dispatching msg=<cparam 'P' (0x00000220BCDF87B0)>
+2024-08-13 13:01:51,707 [Thread-1 (_pump_background)] {utils.py:45} [DEBUG] Received property_visible_data_change event=<JavaObject object at 0x00000220BCE201D0>
+2024-08-13 13:01:51,707 [Thread-1 (_pump_background)] {utils.py:50} [DEBUG] Executed property_visible_data_change in 0.0000s
+2024-08-13 13:01:51,709 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE20CD0>
+2024-08-13 13:01:51,711 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE20DD0>
+2024-08-13 13:01:51,713 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE21250>
+2024-08-13 13:01:51,715 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE21350>
+2024-08-13 13:01:51,718 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE217D0>
+2024-08-13 13:01:51,720 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE218D0>
+2024-08-13 13:01:51,722 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE21D50>
+2024-08-13 13:01:51,723 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE21E50>
+2024-08-13 13:01:51,726 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE222D0>
+2024-08-13 13:01:51,728 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE223D0>
+2024-08-13 13:01:51,730 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE22850>
+2024-08-13 13:01:51,732 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE22AD0>
+2024-08-13 13:01:51,734 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE22F50>
+2024-08-13 13:01:51,736 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE231D0>
+2024-08-13 13:01:51,738 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE23650>
+2024-08-13 13:01:51,739 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE23750>
+2024-08-13 13:01:51,741 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE23BD0>
+2024-08-13 13:01:51,743 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE23E50>
+2024-08-13 13:01:51,745 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE24350>
+2024-08-13 13:01:51,747 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE245D0>
+2024-08-13 13:01:51,750 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE24A50>
+2024-08-13 13:01:51,752 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE24B50>
+2024-08-13 13:01:51,762 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE24FD0>
+2024-08-13 13:01:51,763 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE288D0>
+2024-08-13 13:01:51,766 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE28D50>
+2024-08-13 13:01:51,768 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE28E50>
+2024-08-13 13:01:51,770 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE292D0>
+2024-08-13 13:01:51,772 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE29550>
+2024-08-13 13:01:51,773 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE299D0>
+2024-08-13 13:01:51,776 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE29AD0>
+2024-08-13 13:01:51,787 [MainThread] {context_tree.py:70} [DEBUG] Parsing element=<JavaObject object at 0x00000220BCE29F50>
+2024-08-13 13:01:51,789 [MainThread] {context_tree.py:72} [DEBUG] Parsed element info=<JABWrapper.jab_types.AccessibleContextInfo object at 0x00000220BCE2A050>
+2024-08-13 13:01:51,791 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_change
+2024-08-13 13:01:51,791 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_name_change
+2024-08-13 13:01:51,791 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_description_change
+2024-08-13 13:01:51,791 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_state_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_value_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_selection_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_text_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_caret_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_visible_data_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_child_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_active_descendent_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=property_table_model_change
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=menu_selected
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=menu_deselected
+2024-08-13 13:01:51,792 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=menu_calceled
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=focus_gained
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=focus_lost
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=caret_update
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=mouse_clicked
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=mouse_entered
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=mouse_exited
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=mouse_pressed
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=mouse_released
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=popup_menu_canceled
+2024-08-13 13:01:51,793 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=popup_menu_will_become_invisible
+2024-08-13 13:01:51,794 [MainThread] {jab_wrapper.py:1815} [DEBUG] Registering callback=popup_menu_will_become_visible
+2024-08-13 13:01:51,794 [MainThread] {utils.py:13} [DEBUG] Executed Init context tree in 0.3453s
+2024-08-13 13:01:51,794 [MainThread] {JavaAccessBridge.py:592} [INFO] Searches: [[<JABWrapper.utils.SearchElement object at 0x00000220BCED1990>]]
+2024-08-13 13:01:51,795 [MainThread] {JavaAccessBridge.py:603} [INFO] Search "role:text" returned 2 element(s)
+2024-08-13 13:01:51,796 [MainThread] {JavaAccessBridge.py:891} [INFO] Element click action type: <class 'JABWrapper.context_tree.ContextNode'>
+2024-08-13 13:01:51,796 [MainThread] {JavaAccessBridge.py:919} [INFO] Element click coordinates
+2024-08-13 13:01:51,797 [MainThread] {context_tree.py:331} [DEBUG] Expected visible children count=0
